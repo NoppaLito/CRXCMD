@@ -3,25 +3,25 @@
 #include <cromchat>
 #include <fun>
 
-/* Администраторският флаг */
+/* The admin flag */
 #define ADMIN_FLAG "e"
 
-/* Команда в конзолата. Сложете // в началото на реда за да я изключите */
+/* The console command. Put // in front to disable it */
 new const CONSOLE_COMMAND[] = "amx_grab"
 
-/* Команда в чата. Сложете // в началото на реда за да я изключите */
+/* The chat command. Put // in front to disable it */
 new const CHAT_COMMAND[] = "/grab"
 
-/* Дали командата да може да се ползва върху себе си (true = да; false = не) */
+/* Whether the command can be used on yourself (true = yes; false = no) */
 new const bool:USE_ON_SELF = false
 
-/* Префикс преди командата. Сложете // в началото на реда за да го изключите */
+/* The chat prefix. Put // in front to disable it */
 new const COMMAND_PREFIX[] = "&x04[AMXX]"
 
-/* На кое разстояние ще бъде телепортиран играчът */
+/* Teleport distance from player */
 new const DISTANCE_FROM_PLAYER = 36
 
-/* --- Край на настройките --- */
+/* --- End of settings --- */
 
 #define PLUGIN_VERSION "1.0"
 new ADMIN_FLAG_BIT
