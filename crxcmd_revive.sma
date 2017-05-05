@@ -82,7 +82,7 @@ public Cmd_Say(id)
 }
 #endif
 
-stock DoAction(id, szPlayer[])
+DoAction(id, szPlayer[])
 {
 	new iPlayer = cmd_target(id, szPlayer, REVIVE_ALIVE ? CMDTARGET_ONLY_ALIVE : 0)
 	
